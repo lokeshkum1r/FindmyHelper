@@ -1,0 +1,354 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%; /* Adjust width for responsiveness */
+  max-width: 1400px; /* Allow for large screens */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Updated Header Styles */
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  background: linear-gradient(45deg, #1a73e8, #34a853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* WhatsApp Section */
+.whatsapp-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.phone-input {
+  display: flex;
+  flex-wrap: wrap; /* Allow elements to stack on small screens */
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.phone-input select, 
+.phone-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.phone-input input {
+  width: 200px;
+}
+
+.phone-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.phone-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Intro Section */
+.intro-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Stats Section Enhancement */
+.stats {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+}
+
+.stat {
+  text-align: center;
+  flex: 1 1 250px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+}
+
+.stat h3 {
+  color: #1a73e8;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Updated Form Section */
+.form-section {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-section input {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-section input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+  outline: none;
+}
+
+.form-section button {
+  background: linear-gradient(45deg, #1a73e8, #34a853);
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-section button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(26, 115, 232, 0.3);
+}
+
+.form-section button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer a {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Updated Skills Section */
+.skills-section {
+  margin-bottom: 1rem;
+}
+
+.skills-section label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.skill-chip {
+  padding: 12px 15px;
+  border-radius: 12px;
+  font-weight: 500;
+  background-color: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  transition: all 0.2s ease;
+}
+
+.skill-chip:hover {
+  background-color: #e8f0fe;
+  border-color: #1a73e8;
+}
+
+.skill-chip.selected {
+  background-color: #1a73e8;
+  color: white;
+  border-color: #1a73e8;
+}
+
+.selected-skills {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.message {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Success Message */
+.success-message {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.telegram-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #0088cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.telegram-link:hover {
+  background-color: #006699;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container {
+      width: 95%; /* More space on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+      padding: 30px 15px;
+  }
+
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .header p {
+      font-size: 1rem;
+  }
+
+  .phone-input {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .phone-input input {
+      width: 100%;
+  }
+
+  .stats {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 1.8rem;
+  }
+
+  .header p {
+      font-size: 0.9rem;
+  }
+
+  .intro-section h2 {
+      font-size: 1.6rem;
+  }
+
+  .intro-section p {
+      font-size: 1rem;
+  }
+
+  .stat h3 {
+      font-size: 1.5rem;
+  }
+}
