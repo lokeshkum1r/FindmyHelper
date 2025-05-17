@@ -47,7 +47,7 @@ const Navbar = ({ openLoginModal, cart, user, onLogout }) => {
           try {
             // Using Google Maps Geocoding API
             const response = await fetch(
-              `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyB_FlEvUdEo2B15j8z6P8NjPgb1ebyxGW0`
+              `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyB_FlEvUdEo2B15xxz6P8NjPgb1ebyxGW0`
             );
             const data = await response.json();
 
