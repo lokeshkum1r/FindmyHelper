@@ -17,4 +17,4 @@ FindmyHelper is a web application designed to connect users with trusted local h
 - Other: Google Maps API for location services
 
 # Screenshot
-![Alt text](Screenshot 2025-04-02 162025.png)
+![FindmyHelper Screenshot](Screenshot 2025-04-02 162025.png) 
