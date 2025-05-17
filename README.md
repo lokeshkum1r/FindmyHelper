@@ -15,3 +15,6 @@ FindmyHelper is a web application designed to connect users with trusted local h
 - Authentication: JWT (or your auth method)
 - Deployment: GitHub, Heroku (or your deployment platform)
 - Other: Google Maps API for location services
+
+# Screenshot
+![Alt text](Screenshot 2025-04-02 162025.png)
