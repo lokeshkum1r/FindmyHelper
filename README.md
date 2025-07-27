@@ -1,21 +1,49 @@
-# FindmyHelper
+# 🛠️ FindmyHelper
 
-FindmyHelper is a web application designed to connect users with trusted local helpers for various home services such as plumbing, electrician work, carpentry, painting, appliance repair, and more. It aims to make finding reliable helpers easy, fast, and secure.
+**FindmyHelper** is a web-based platform that connects users with trusted and verified local service providers (helpers) for essential home services including plumbing, electrical work, carpentry, painting, appliance repair, bike repair, AC servicing, and more. The goal is to provide a seamless and secure experience for users to find, book, and rate helpers based on their location and service needs.
 
-# Features
+---
 
-- User registration and login
-- Browse and book helpers by service category
+## 🚀 Features
 
-# Technologies Used
+- 🔐 User Authentication (JWT-based login/signup)
+- 📂 Categorized browsing of services (Plumber, Electrician, Painter, etc.)
+- 📍 Google Maps integration for real-time location and geocoding
+- 🛒 Cart system for booking multiple services
+- 📄 Address form with auto-fill via live location
+- 📲 Telegram bot integration to notify helpers
+- 🧾 Order receipt and booking confirmation UI
+- 💳 COD (Cash on Delivery) support
 
-- Frontend: React.js (or your frontend framework)
-- Backend: Node.js, Express.js
-- Database: MongoDB (or your database)
-- Authentication: JWT (or your auth method)
-- Deployment: GitHub, Heroku (or your deployment platform)
-- Other: Google Maps API for location services
+---
 
-# Screenshot
-![FindmyHelper](Screenshot_2025-04-02_162025.png)
-![FindmyHelper](Screenshot_2025-04-02_162051.png) 
+## 🧑‍💻 Tech Stack
+
+| Layer       | Technology                   |
+|-------------|-------------------------------|
+| Frontend    | React.js (with Tailwind CSS)  |
+| Backend     | Node.js, Express.js           |
+| Database    | MongoDB + Mongoose            |
+| Auth        | JWT (JSON Web Token)          |
+| APIs        | Google Maps Geocoding API     |
+| Deployment  | GitHub, Render/Heroku (optional) |
+| Other Tools | Telegram Bot API, Postman     |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/lokeshkum1r/FindmyHelper.git
+cd FindmyHelper
+cd my-app
+npm install
+npm start
+
+cd ../backend
+npm install
+npm run server
+
+
