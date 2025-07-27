@@ -21,7 +21,7 @@
 
 | Layer       | Technology                   |
 |-------------|-------------------------------|
-| Frontend    | React.js (with Tailwind CSS)  |
+| Frontend    | React.js (with CSS)  | JavaScript
 | Backend     | Node.js, Express.js           |
 | Database    | MongoDB + Mongoose            |
 | Auth        | JWT (JSON Web Token)          |
