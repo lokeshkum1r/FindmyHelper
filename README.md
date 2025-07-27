@@ -26,7 +26,7 @@
 | Database    | MongoDB + Mongoose            |
 | Auth        | JWT (JSON Web Token)          |
 | APIs        | Google Maps Geocoding API     |
-| Deployment  | GitHub, Render/Heroku (optional) |
+| Deployment  | GitHub |
 | Other Tools | Telegram Bot API, Postman     |
 
 ---
@@ -36,6 +36,7 @@
 ### 1. Clone the Repository
 
 ```bash
+Vercel link - https://vercel.com/lokeshkum1rs-projects/findmy-helper/5bvMBjxzedCL9fKmakz2eP4NUHij
 git clone https://github.com/lokeshkum1r/FindmyHelper.git
 cd FindmyHelper
 cd my-app
@@ -44,6 +45,6 @@ npm start
 
 cd ../backend
 npm install
-npm run server
+npm run start
 
 
