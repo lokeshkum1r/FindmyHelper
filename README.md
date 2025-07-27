@@ -30,13 +30,13 @@
 | Other Tools | Telegram Bot API, Postman     |
 
 ---
+Vercel link -> https://vercel.com/lokeshkum1rs-projects/findmy-helper/5bvMBjxzedCL9fKmakz2eP4NUHij
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
 
 ```bash
-Vercel link - https://vercel.com/lokeshkum1rs-projects/findmy-helper/5bvMBjxzedCL9fKmakz2eP4NUHij
 git clone https://github.com/lokeshkum1r/FindmyHelper.git
 cd FindmyHelper
 cd my-app
