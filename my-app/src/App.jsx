@@ -9,7 +9,7 @@ import AboutFeedback from "./components/AboutFeedback";
 import Footer from "./components/Footer";
 import LoginModal from "./components/LoginModal";
 import SignupModal from "./components/SignupModal";
-import ServicePage from "./components/plumber";
+import ServicePage from "./components/subservices";
 import CartPage from "./components/CartPage";
 import ScrollToTop from "./components/scrolltotop";
 import Helper from "./components/helper";
