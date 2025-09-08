@@ -43,12 +43,12 @@ It makes finding reliable helpers **easy, fast, and secure**.
 
 2. Live Demo - https://findmy-helper-9ewn.vercel.app/
    
-cd backend
-npm install
-npm start
-cd my-app
-npm install
-npm start
+-cd backend
+-npm install
+-npm start
+-cd my-app
+-npm install
+-npm start
 
 FindmyHelper/
 │── backend/        # Node.js + Express backend
