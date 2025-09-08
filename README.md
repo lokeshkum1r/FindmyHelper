@@ -32,7 +32,6 @@ It makes finding reliable helpers **easy, fast, and secure**.
 - JWT for authentication  
 - Google Maps API for location services  
 - GitHub for version control
-- 
 ---
 
 ## ⚙️ Installation & Setup
