@@ -40,19 +40,19 @@ It makes finding reliable helpers **easy, fast, and secure**.
    ```bash
    git clone - https://github.com/lokeshkum1r/FindmyHelper
    cd FindmyHelper
+   backend setup
+   cd backend
+   npm install
+   npm start
+
+   Frontend setup
+   cd my-app
+   npm install
+   npm start
+   
 
 2. Live Demo - https://findmy-helper-9ewn.vercel.app/
 
-1.**Backend setup 
-
--cd backend
--npm install
--npm start
-2.**Frontend setup
-
--cd my-app
--npm install
--npm start
 
 FindmyHelper/
 │── backend/        # Node.js + Express backend
