@@ -19,7 +19,7 @@ It makes finding reliable helpers **easy, fast, and secure**.
 
 **Frontend**  
 - React.js  
-- Tailwind CSS  
+- CSS  
 
 **Backend**  
 - Node.js  
@@ -31,11 +31,9 @@ It makes finding reliable helpers **easy, fast, and secure**.
 **Other Tools**  
 - JWT for authentication  
 - Google Maps API for location services  
-- GitHub for version control  
-- Heroku / Render (deployment)
-
+- GitHub for version control
+- 
 ---
-
 
 ## ⚙️ Installation & Setup
 
