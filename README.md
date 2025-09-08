@@ -1,21 +1,58 @@
-# FindmyHelper
+# 🛠️ FindmyHelper
 
-FindmyHelper is a web application designed to connect users with trusted local helpers for various home services such as plumbing, electrician work, carpentry, painting, appliance repair, and more. It aims to make finding reliable helpers easy, fast, and secure.
+**FindmyHelper** is a full-stack web application that connects users with trusted local helpers for various home services such as plumbing, electrical work, carpentry, painting, appliance repair, and more.  
+It makes finding reliable helpers **easy, fast, and secure**.
 
-# Features
+---
 
-- User registration and login
-- Browse and book helpers by service category
+## 🚀 Features
 
-# Technologies Used
+- 🔐 User registration and login  
+- 📋 Browse and book helpers by service category  
+- 📍 Real-time location & tracking using Google Maps API   
+- 🛡️ Secure authentication with JWT  
+- 📊 Order and booking history  
 
-- Frontend: React.js (or your frontend framework)
-- Backend: Node.js, Express.js
-- Database: MongoDB (or your database)
-- Authentication: JWT (or your auth method)
-- Deployment: GitHub, Heroku (or your deployment platform)
-- Other: Google Maps API for location services
+---
 
-# Screenshot
-![FindmyHelper](Screenshot_2025-04-02_162025.png)
-![FindmyHelper](Screenshot_2025-04-02_162051.png) 
+## 🖥️ Technologies Used
+
+**Frontend**  
+- React.js  
+- Tailwind CSS  
+
+**Backend**  
+- Node.js  
+- Express.js  
+
+**Database**  
+- MongoDB  
+
+**Other Tools**  
+- JWT for authentication  
+- Google Maps API for location services  
+- GitHub for version control  
+- Heroku / Render (deployment)
+
+---
+
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone - https://github.com/lokeshkum1r/FindmyHelper
+   cd FindmyHelper
+   
+cd backend
+npm install
+npm start
+cd my-app
+npm install
+npm start
+
+FindmyHelper/
+│── backend/        # Node.js + Express backend
+│── my-app/       # React frontend
+│── .gitignore
+│── README.md
