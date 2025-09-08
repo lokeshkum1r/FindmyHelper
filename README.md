@@ -40,7 +40,11 @@ It makes finding reliable helpers **easy, fast, and secure**.
    ```bash
    git clone - https://github.com/lokeshkum1r/FindmyHelper
    cd FindmyHelper
-   backend setup
+   
+
+2. Live Demo - https://findmy-helper-9ewn.vercel.app/
+
+ ## backend setup
    cd backend
    npm install
    npm start
@@ -49,9 +53,6 @@ It makes finding reliable helpers **easy, fast, and secure**.
    cd my-app
    npm install
    npm start
-   
-
-2. Live Demo - https://findmy-helper-9ewn.vercel.app/
 
 
 FindmyHelper/
