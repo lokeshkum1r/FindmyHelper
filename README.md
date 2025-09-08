@@ -42,10 +42,14 @@ It makes finding reliable helpers **easy, fast, and secure**.
    cd FindmyHelper
 
 2. Live Demo - https://findmy-helper-9ewn.vercel.app/
-   
+
+1.**Backend setup 
+
 -cd backend
 -npm install
 -npm start
+2.**Frontend setup
+
 -cd my-app
 -npm install
 -npm start
