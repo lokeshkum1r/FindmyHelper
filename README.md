@@ -44,12 +44,12 @@ It makes finding reliable helpers **easy, fast, and secure**.
 
 2. Live Demo - https://findmy-helper-9ewn.vercel.app/
 
- ## backend setup
+ **backend setup**
    -cd backend
    -npm install
    -npm start
 
-  ## Frontend setup
+  **Frontend setup**
    -cd my-app
    -npm install
    -npm start
